@@ -1,1 +1,58 @@
+Im watching videos from "programming with mosh"  which is a course for learning python.
+
+WEEK 1: learning variables by watching an hour of examples and explanations 
+There are problems that are given to practice variables which include: writing a code that includes a checking in a patient named John Smith, who is 20 years old and is a new patient. 
+
+solution to example:
+full_name = 'John Smith'
+age = 20
+is_new = True
+
+WEEK 2: leanred how print statements worked. Watched how Mosh did his exmaples and explanations.
+The problem that came with this section was: Ask two questions: person's name and favorite color. The print a message like "Mosh likes blue"
+
+solution to the problem:
+name = input('What is your name? ')
+favorite_color = input('What is your favorite color? ')
+print(name + ' likes ' + favorite_color)
+
+WEEK 3: learning how type conversions and strings work. Watched about an hour of explanations and example problems.
+The problem this week is : The price of a house is $1m. If the buyer has good credit, they need to put down 10%, Otherwise they need to put down 20%, print the down payment.
+
+solution to the problem:
+price = 1000000
+has_good_credit = True
+
+if has_good_credit:
+    down_payment = 0.1 * price
+else:
+    down_payment = o.2 * price
+print(f"Down payment: ${down_payment}")
+
+WEEK 4: learning about how logical operators work and comparison operators work. Spent 45 minuets watching examples from Mosh.
+The problem for this section was: if name is less than 3 characters long, name must be at least 3 characters, otherwise is it's more than 50 characters long then name can be a maximum of 50 characters, otherwise name looks good!
+
+soltion to the problem:
+name = 'John Smith'
+
+if len(name) < 3:
+    print("Name must be at least 3 characters.")
+elif len(name) > 50:
+    print("Name must be a maximum of 50 characters.")
+else:
+    print("Name looks good!")
+    
+WEEK 5: watched videos and examples that explained how lists work in python. About an hour spent listening and watching examples.
+The problem for lists was: write a program to find the largest number in a list.
+
+solution to the problem:
+numbers = [3, 6, 2, 10, 8, 4]
+max = numbers[0]
+for number in numbers:
+    if number > max:
+        max = number
+print(max)        
+
+
+
 
