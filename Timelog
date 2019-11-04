@@ -51,7 +51,49 @@ max = numbers[0]
 for number in numbers:
     if number > max:
         max = number
-print(max)        
+print(max)
+
+WEEK 6: This week I learned about classes in Python. He showed examples of how classes are used to define new types.
+Problem for the class: Define a new type called Person, should include name and talk()
+
+solution to the problem:
+Class Person:
+   def_init_(self, name):
+      self.name = name
+      
+   def talk(self):
+       print(f"Hi, I am {self.name}
+       
+john = person("John Smith")
+john.talk()
+
+WEEK 7: I learned more about how to deal with lists. He went more into depth about how they work and showed examples of how they work.
+Problem for this week: Write a program that removes the duplicates in a list.
+
+Solution:
+
+numbers = [2, 2, 4, 6, 3, 4, 6, 1]
+uniques = []
+for number in numbres:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
+
+WEEK 8: This week I was watches mosh explain how while loops work and examples to go with them. It really helped me understand more about how they work
+Problem: Write a program that makes a guessing game and the number you are supposed to guess is 9.
+ 
+ Solution: 
+ secret_number = 9
+ guess_count = 0
+ guess_limit = 3
+ while guess_count < guess_limit:
+      guess = int(input('Guess: ')
+      guess_count += 1
+      if guess == secret_number:
+         print('You Won!')
+         
+WEEK 9:
+
 
 
 
