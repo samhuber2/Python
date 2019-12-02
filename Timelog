@@ -92,7 +92,83 @@ Problem: Write a program that makes a guessing game and the number you are suppo
       if guess == secret_number:
          print('You Won!')
          
-WEEK 9:
+WEEK 9: I learned how methods work and how to generate random values. Watched him explain how they work and write a program that generated random names.
+
+Problem: Create a program that can roll a dice.
+
+Solution:
+
+import random
+
+class Dice:
+   def roll(self):
+       first = random.randint(1, 6)
+       second = random.randint(1, 6)
+       return first, second 
+       
+       
+ dice = Dice
+ print(dice.roll())
+ 
+ WEEK 10: This week mosh was explaining why dictionaries are so important in python and why they should be used. He showed examples of how to put words in the 'dictionary".
+ 
+ Problem: Translate Phone: 1234 so it actually prints "one" "two" "three" "four"
+ 
+ Solution:
+ 
+ phone = input("Phone: ")
+ digits_mapping = {
+     "1": "One",
+     "2": "Two",
+     "3": "Three",
+     "4": "Four"
+ }
+ for ch in phone:
+     output += digits_mapping.get(ch, "!") + " "
+ ptint(output)
+ 
+ WEEK 11: I was still leanring about dictionaries, but we did something pretty cool this week. He showed me how to do emojiis in python by giving examples and explaining well.
+ 
+ Problem: Translate :) into the emojii smiley face "😃"
+ 
+ Solution: 
+ 
+ message = input(">")
+ words = message.split(' ')
+ emoji = {
+     ":)": "😃"
+}
+output = ""
+for word in words:
+    emoji.get(word, word)
+    
+WEEK 12: This week in Python we learned how constructors work in python. Most did an example of how they work, when to use then, and mistakes that could be possible.
+  
+Problem: Define a new type called "Person". This person object should have a name attribute as well as a talk method.  
+
+Solution: 
+
+class Person:
+    def_init_(self, name):
+       self.name = name
+       
+    def talk(self):
+        print(f"Hi, I am {self.name}")
+
+
+sam = person("Sam Huber")
+sam.talk()
+
+alayna = person("Alayna Alberts")
+alayna.talk()
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
 
